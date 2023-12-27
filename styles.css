@@ -49,11 +49,6 @@ input:focus {
     outline: none;
 }
 
-.invalid {
-    border: 1.5px solid red;
-    outline: none;
-}
-
 a {
     color: #05FFA8;
 }
