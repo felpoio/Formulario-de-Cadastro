@@ -13,8 +13,19 @@ img {
 header {
     font-size: 1.5rem;
     font-weight: bold;
-    padding: 2rem;
-    padding-top: 6rem;
+    padding: 6rem 2rem 2rem 0;
+}
+
+h1 {
+    font-size: 1.5rem;
+}
+
+form, p, h1 {
+    padding-left: 2rem;
+}
+
+form {
+    display: flex;
 }
 
 #container {
