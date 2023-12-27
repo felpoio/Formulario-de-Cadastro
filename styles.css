@@ -26,8 +26,47 @@ form, p, h1 {
 
 form {
     display: flex;
+    font-size: 0.7rem;
+    font-weight: lighter;
+    color: #3F4854;
+}
+
+label {
+    letter-spacing: 0.2em;
+    font-weight: bold;
+}
+
+input {
+    padding: 0.3rem;
+    border: 1.5px solid #E5E7EB;
+    border-radius: 0.3em;
+}
+
+a {
+    color: #05FFA8;
+}
+
+p {
+    font-weight: bold;
+}
+
+button {
+    background-color: #05FFA8;
+    width: max-content;
+    font-size: 1rem;
+    font-weight: bold;
+    border: 0;
+    border-radius: 0.7em;
+    color: white;
+    padding: 1em 4em;
+    cursor: pointer;
+    box-shadow: 8px 11px 15px -3px rgba(0,0,0,0.1);
 }
 
 #container {
     display: flex;
+}
+
+#left, #right {
+    max-width: 32%;
 }
