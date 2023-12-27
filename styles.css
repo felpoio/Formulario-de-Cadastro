@@ -13,7 +13,7 @@ img {
 header {
     font-size: 1.5rem;
     font-weight: bold;
-    padding: 6rem 2rem 2rem 0;
+    padding: 1rem 2rem 2rem 0;
 }
 
 h1 {
@@ -40,6 +40,7 @@ input {
     padding: 0.3rem;
     border: 1.5px solid #E5E7EB;
     border-radius: 0.3em;
+    width: 15rem;
 }
 
 a {
@@ -58,9 +59,14 @@ button {
     border: 0;
     border-radius: 0.7em;
     color: white;
-    padding: 1em 4em;
+    padding: 0.8rem 4rem;
+    margin: 2rem 0;
     cursor: pointer;
     box-shadow: 8px 11px 15px -3px rgba(0,0,0,0.1);
+}
+
+form > div > div {
+    padding: 0.5rem 0;
 }
 
 #container {
@@ -69,4 +75,8 @@ button {
 
 #left, #right {
     max-width: 32%;
+}
+
+#left {
+    padding-right: 5rem;
 }
